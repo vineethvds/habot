@@ -1,0 +1,60 @@
+.postedJob{
+  background: #FFFFFF;
+border-radius: 25px;
+}
+
+.jobTitle {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+
+
+ .tableTh {
+   border-bottom: 1px #dddddd solid;
+   text-align: center;
+   padding: 25px;
+ }
+
+ .headerColor {
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   padding: 5px 0px;
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 19px;
+   /* identical to box height, or 95% */
+text-align: center;
+background-color: red;
+   color: #C689C6;
+ }
+
+
+ .postedJobHeading {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 49px;
+   /* identical to box height */
+
+   text-align: left;
+   color: #2A3065;
+ }
+
+ .jobTitleHead th {
+   font-family: 'Noto Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 19px;
+   /* identical to box height, or 95% */
+
+
+   color: #C689C6;
+
+ }

@@ -1,0 +1,21 @@
+.title{
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #2A3065;
+}
+
+.backBtn{
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #C179BA;
+text-decoration: none;
+}

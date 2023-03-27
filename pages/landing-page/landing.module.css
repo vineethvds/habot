@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Markazi+Text&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Markazi+Text&family=Mulish&family=Noto+Sans&display=swap');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+/* First Banner  */
+.landingHeader {
+  background-image: url(https://i.ibb.co/xLznrq1/Group-1000004621.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  background-size: cover;
+  background-color: #583D88;
+}
+
+.landingHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingHeaderContainer h1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+
+}
+
+.landingHeaderText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.search {
+  display: inline-block;
+}
+
+.search input {
+  width: 383px;
+  height: 40px;
+  background: rgba(250, 250, 250, 0.93);
+  border-radius: 10px;
+}
+
+.search input {
+  text-indent: 35px;
+}
+
+.search svg {
+  position: absolute;
+}
+
+.search svg {
+  top: 25%;
+  left: auto;
+  right: 93%;
+}
+
+.postJobBtn {
+  width: 136px;
+  height: 45px;
+  background: #C689C6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 56px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.postJobBtn:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 20px rgba(120, 98, 120, .7);
+  transition: .4s;
+}
+
+.bannerImg img {
+  width: auto;
+  margin-left: auto;
+}
+
+/* second banner  */
+.secondBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondBannerContent {}
+
+@media (max-width: 1440px), (min-width:1700px) {
+  .bannerImg img {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1140px) {
+  .landingHeaderContainer h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+
+  }
+
+  .landingHeaderText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .landingHeaderContainer h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+
+  }
+
+  .search input {
+    width: auto;
+    height: 40px;
+    background: rgba(250, 250, 250, 0.93);
+    border-radius: 10px;
+  }
+
+  .search svg {
+    top: 33%;
+    left: auto;
+    right: 90%;
+  }
+
+  .landingHeaderText {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bannerImg img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+
+  .landingHeaderContainer h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 50px;
+  }
+
+  .search input {
+    width: auto;
+    height: 40px;
+    background: rgba(250, 250, 250, 0.93);
+    border-radius: 10px;
+  }
+
+  .search svg {
+    top: 33%;
+    left: auto;
+    right: 90%;
+  }
+
+  .landingHeaderText {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bannerImg img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+  .landingHeaderContainer h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+
+  }
+
+  .search input {
+    width: auto;
+    height: 35px;
+    background: rgba(250, 250, 250, 0.93);
+    border-radius: 10px;
+    text-indent: 40px;
+  }
+
+  .search svg {
+    top: 28%;
+    left: auto;
+    right: 85%;
+  }
+
+  .landingHeaderText {
+    margin-left: 30px;
+  }
+
+  .bannerImg img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .postJobBtn {
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landingHeader {
+    height: auto;
+  }
+
+  .landingHeaderContainer h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+  }
+
+  .search input {
+    width: auto;
+    height: 35px;
+    background: rgba(250, 250, 250, 0.93);
+    border-radius: 10px;
+  }
+
+  .search svg {
+    top: 30%;
+    left: auto;
+    right: 85%;
+  }
+
+  .bannerImg img {
+    display: none;
+  }
+
+  .postJobBtn {
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  .landingHeaderText {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
